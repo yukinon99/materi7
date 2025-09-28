@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/splash_page.dart';
+import 'splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,10 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "App",
-      home: SplashPage(),
+      title: 'Materi Kuliah',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const SplashScreen(),
     );
   }
 }
