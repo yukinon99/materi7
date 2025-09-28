@@ -5,11 +5,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       appBar: AppBar(title: Text("Home")),
       body: Center(
         child: Text(
-          "Selamat datang di Aplikasi UTS Mini 🎉",
+          "Selamat datang di Aplikasi 🎉",
           style: TextStyle(fontSize: 20),
         ),
       ),
