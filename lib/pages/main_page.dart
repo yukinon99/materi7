@@ -31,7 +31,6 @@ class _MainPageState extends State<MainPage> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.list), label: "Data"),
-          BottomNavigationBarItem(icon: Icon(Icons.pie_chart), label: "Statistik"),
         ],
       ),
     );
